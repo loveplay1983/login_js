@@ -10,31 +10,32 @@
 <body class="body_area">
   <div>
     <div class="login_btn">
-      <a href="#" onclick="login()">Login</a>
+      <a href="#" onclick="popLogin()">Login</a>
     </div>
   </div>
   <div class="login_area" id="login_content">
-    <div id="lo">
-      <div class="h">
-        <button type="button" id="cl" onclick="out()"></button>
-        <p class="ti">Login</p>
+    <div id="login_win">
+      <div class="login_win_title">
+        <button type="button" id="close_login" onclick="hideLogin()"></button>
+        <p class="title">Login</p>
       </div>
-      <form id="loc" method="post">
+      <!-- Don't use get method since it is unsafe for sensitive data -->
+      <form id="login_info" method="post">
         <ul>
-          <li class="lof">
-            <input class="fo" id="n" name="n" placeholder="Email/Phone" type="text">
+          <li class="info">
+            <input class="info_size" id="user_name" name="user_name" placeholder="Email/Phone" type="text">
           </li>
-          <li class="lof">
-            <input class="fo" id="p" name="p" placeholder="Password" type="password">
+          <li class="info">
+            <input class="info_size" id="passwd" name="passwd" placeholder="Password" type="password">
           </li>
         </ul>
-        <div class="lof">
-          <p class="lot1 l">No account？</p>
-          <a class="lot2 l" href="index.html">Register</a>
-          <a class="lot2 r" href="index.html">Forget Password？</a>
+        <div class="info">
+          <p class="no_account_tip float_left">No account？</p>
+          <a class="option float_left" href="index.html">Register</a>
+          <a class="option float_right" href="index.html">Forget Password？</a>
         </div>
-        <div class="lof">
-          <input class="su lof" type="button" onclick="cf()" value="Confirm" />
+        <div class="info">
+          <input class="confirm_btn info" type="button" onclick="cf()" value="Confirm" />
         </div>
       </form>
     </div>
