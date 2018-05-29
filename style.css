@@ -1,5 +1,6 @@
 * {
-  font: 30px/30px Monospace;
+  font: 20px/20px Monospace;
+  font-weight: bold;
   margin: 0 auto;
   padding: 0;
   color: #001326;
@@ -14,11 +15,11 @@ a {
   cursor: pointer;
 }
 
-.l {
+.float_left {
   float: left;
 }
 
-.r {
+.float_right {
   float: right;
 }
 
@@ -54,7 +55,7 @@ a {
   opacity: 0.7;
 }
 
-#lo {
+#login_win {
   width: 600px;
   height: 371px;
   background: #fff;
@@ -63,7 +64,7 @@ a {
   padding: 5px;
 }
 
-#cl {
+#close_login {
   float: right;
   height: 19px;
   width: 19px;
@@ -73,35 +74,35 @@ a {
   margin-right: 3px;
 }
 
-.ti {
+.title {
   margin-top: 1px;
   margin-left: 3px;
 }
 
-.lof {
+.info {
   height: 45px;
   width: 450px;
-  margin-top: 28px;
+  margin-top: 25px;
 }
 
-.fo {
+.info_size {
   height: inherit;
   width: inherit;
   font: 33px/33px 方正清刻本悦宋简体;
 }
 
-.su {
-  background: #555;
+.confirm_btn {
+  background: #2b9978;
   border: none;
   color: #fff;
   margin-top: 0px;
 }
 
-.lot1 {
-  font: 26px/26px 方正清刻本悦宋简体;
+.no_account_tip {
+  font: 26px/26px 方正清刻本悦宋简体 Monospace;
 }
 
-.lot2 {
-  font: 26px/26px 方正清刻本悦宋简体;
-  color: #ddd775;
+.option {
+  font: 26px/26px 方正清刻本悦宋简体 Monospace;
+  color: #bfba68;
 }
