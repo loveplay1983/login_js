@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="body_area">
+  <div>
+    <div class="login_btn">
+      <a href="#" onclick="login()">Login</a>
+    </div>
+  </div>
+  <div class="login_area" id="login_content">
+    <div id="lo">
+      <div class="h">
+        <button type="button" id="cl" onclick="out()"></button>
+        <p class="ti">Login</p>
+      </div>
+      <form id="loc" method="post">
+        <ul>
+          <li class="lof">
+            <input class="fo" id="n" name="n" placeholder="Email/Phone" type="text">
+          </li>
+          <li class="lof">
+            <input class="fo" id="p" name="p" placeholder="Password" type="password">
+          </li>
+        </ul>
+        <div class="lof">
+          <p class="lot1 l">No account？</p>
+          <a class="lot2 l" href="index.html">Register</a>
+          <a class="lot2 r" href="index.html">Forget Password？</a>
+        </div>
+        <div class="lof">
+          <input class="su lof" type="button" onclick="cf()" value="Confirm" />
+        </div>
+      </form>
+    </div>
+  </div>
+  <script type="text/javascript" src='script.js'></script>
+</body>
+
+</html>

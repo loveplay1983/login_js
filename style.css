@@ -1,0 +1,107 @@
+* {
+  font: 30px/30px Monospace;
+  margin: 0 auto;
+  padding: 0;
+  color: #001326;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+.l {
+  float: left;
+}
+
+.r {
+  float: right;
+}
+
+.body_area {
+  position: relative;
+}
+
+.login_area {
+  position: absolute;
+}
+
+.a {
+  width: 100%;
+}
+
+.login_btn {
+  margin: 0 auto;
+  width: 100px;
+}
+
+#login_content {
+  width: 100%;
+  height: 900px;
+  display: none;
+  background: #bbb;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -moz-opacity: 0.7;
+  -ms-opacity: 0.7;
+  -webkit-opacity: 0.7;
+  -o-opacity: 0.7;
+  opacity: 0.7;
+}
+
+#lo {
+  width: 600px;
+  height: 371px;
+  background: #fff;
+  margin-top: 150px;
+  margin-left: auto;
+  padding: 5px;
+}
+
+#cl {
+  float: right;
+  height: 19px;
+  width: 19px;
+  background: url("img/x.png");
+  border: none;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.ti {
+  margin-top: 1px;
+  margin-left: 3px;
+}
+
+.lof {
+  height: 45px;
+  width: 450px;
+  margin-top: 28px;
+}
+
+.fo {
+  height: inherit;
+  width: inherit;
+  font: 33px/33px 方正清刻本悦宋简体;
+}
+
+.su {
+  background: #555;
+  border: none;
+  color: #fff;
+  margin-top: 0px;
+}
+
+.lot1 {
+  font: 26px/26px 方正清刻本悦宋简体;
+}
+
+.lot2 {
+  font: 26px/26px 方正清刻本悦宋简体;
+  color: #ddd775;
+}
